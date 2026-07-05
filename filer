@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+lnx_path=$(pwd)
+win_path=$(wslpath -w "${lnx_path}")
+
+explorer.exe "${win_path}"
