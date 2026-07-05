@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec cmd.exe /c "$(wslpath -w "$1")"
