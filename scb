@@ -1,0 +1,4 @@
+#!/bin/bash
+
+str=$(cat)
+powershell.exe -NoProfile -Command "Set-Clipboard \"${str}\""
