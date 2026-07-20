@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. "${HOME}"/.config/.taw.conf
+
+urls="$@"
+
+exec "${TAW_BROWSER_PATH}" --new-window ${urls}
