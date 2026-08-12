@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -d /mmt/g ]; then
+  :
+else
+  sudo mkdir -p /mnt/g
+fi
+sudo mount -t drvfs G: /mnt/g
