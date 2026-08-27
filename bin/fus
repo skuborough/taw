@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "file://wsl.localhost/${WSL_DISTRO_NAME}$(realpath $1)"
