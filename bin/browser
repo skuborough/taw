@@ -4,4 +4,4 @@
 
 urls="$@"
 
-exec "${TAW_BROWSER_PATH}" --new-window ${urls}
+"${TAW_BROWSER_PATH}" --new-window ${urls} &

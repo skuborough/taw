@@ -2,6 +2,6 @@
 
 . "${HOME}"/.config/.taw.conf
 
-win_path="$(wslpath -w $1)"
+win_path="$(wslpath -w "$1")"
 
-exec "${TAW_EDITOR_PATH}" "${win_path}"
+"${TAW_EDITOR_PATH}" "${win_path}" &

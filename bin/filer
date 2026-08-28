@@ -3,4 +3,4 @@
 lnx_path=$(pwd)
 win_path=$(wslpath -w "${lnx_path}")
 
-exec explorer.exe "${win_path}"
+explorer.exe "${win_path}" &
