@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d /mmt/g ]; then
+if [ -d /mnt/g ]; then
   :
 else
   sudo mkdir -p /mnt/g
